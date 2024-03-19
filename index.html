@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -309,4 +310,303 @@
     }
   </script> -->
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/c409095ec5.js" crossorigin="anonymous"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px 0px;
+        }
+        body{
+            color: white;
+            /* background-color:#8eb27b; */
+            background-color: #aed39b;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav {
+            display: flex;
+           justify-content: space-around;
+           align-items: center;
+           height: 60px;
+           /* background-color:#73a05c; */
+           
+           background-color:#3d2513;
+           /* background-color: black; */
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 20px;
+        }
+       .left{
+        font-size: 1.4rem;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav>
+        <div class="left">Amisha's Portfolio</div>
+        <div class="right">
+             <ul id="sidemenu">
+            <li><a href="#home" onclick="closemenu()">Home</a></li>
+            <li><a href="#skills" onclick="closemenu()">Skills</a></li>
+            <li><a href="#projectss" onclick="closemenu()">Projects</a></li>
+            <li><a href="#about" onclick="closemenu()">About</a></li>
+            <li><a href="#contactt" onclick="closemenu()">Contact Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+    </nav>
+</header>
+<main>
+<section id="home" class="first-section">
+    <div class="left-section">
+     Hi, Im  <span class="purple">Amisha!</span>
+     <br>
+     <span id="element"></span>
+     <div class="home-about">
+        I am a passionate software developer with expertise in Front-end and backend.
+         Let's connect and explore how I can add value to your team!
+     </div>
+     <div class="aboutt">
+        <a href="#" class="btn-box">Resume</a>
+     </div>
+    </div>
+    <div class="right-section">
+        <div class="circle">
+    <img src="./images/portfoliophoto1.jpg" alt="photo">
+    </div>
+</div>
+</section>
+<hr>
+<div id ="skills" class="learn">
+    <p>I have learnt so far</p>
+    <h1>Skills</h1>
+</div>
+<section class="second-section">
+    <div class="left-skills">
+        <ul style="list-style: none;">
+            <h1 style="text-decoration: underline;">Technical Skills</h1>
+            <br>
+            <li><img class="image-top" src="./images/c-plus-plus-logo-36.png"><span> C++</span></li>
+            <li><img class="image-top" src="./images/html5-logo-36.png"><span> HTML</span></li>
+            <li><img class="image-top" src="./images/css3-logo-36.png"><span> Css</span></li>
+            <li><img class="image-top" src="./images/javascript-logo-36.png"><span> JavaScript</span></li>
+            <li><img class="image-top" src="./images/nodejs-logo-36.png"><span> NodeJS</span></li>
+            <li><img class="image-top" src="./images/react-logo-24.png"><span> ReactJS</span></li>
+        </ul>
+    </div>
+
+    <div class="right-skills">
+      <ul style="list-style-type:none;">
+        <h1 style="text-decoration:underline;">Professional Skills</h1>
+        <br>
+        <li>&#x2705 Problem Solving</li>  
+        <li>&#x2705 Communication</li>
+        <li>&#x2705 Creativity</li>
+        <li>&#x2705 Teamwork and Collaboration</li> 
+        <li>&#x2705 Continuous Learning</li>
+      </ul>
+    </div>
+</section>
+
+<hr>
+<div id="projectss" class="learn">
+    <p>I have made so far</p>
+    <h1>Projects</h1>
+</div>
+
+<section class="third-section">
+    <div class="projects-content">
+        <div class="row">
+            <img src="./images/chat2.png">
+        <div class="layer">
+            <h5>QuickChat</h5>
+            <p>QuickChat is real-time chat website using NodeJS, Express.js, and Socket.IO, 
+                allowing users to communicate instantly with each other! Technology Stack- Utilizing Node.js for server-side 
+                scripting, Express.js for building the web application framework, and Socket.IO for enabling real-time bidirectional 
+                communication between clients and the server
+             </p>
+                 <a href="#"><i class='bx bx-link-external' style="color: #3d2513;"></i>'></a>
+        </div>
+        </div>
+
+        <div class="row">
+            <img src="./images/travel.png">
+        <div class="layer">
+            <h5>TripIsle Island</h5>
+            <p>TripIsle Island is a travel website to andaman and nicobars using ReactJS! Technology Stack-Built
+                 with React.js, a popular JavaScript library 
+                for building user interfaces, coupled with React Router DOM for managing client-side routing and SASS 
+                for efficient styling and theming!</p>
+                 <a href="#"><i class='bx bx-link-external' style="color: #3d2513;"></i>'></a>
+        </div>
+        </div>
+
+        <div class="row">
+            <img src="./images/qr-code.jpg">
+        <div class="layer">
+            <h5>QR-code Generator</h5>
+            <p>QR code generator generateS QR codes for URLs, built using NodeJS! Technology Stack-Built with
+                 Node.js, a versatile JavaScript runtime, and utilizing API fetching techniques to interact 
+                 with QR code generation services, providing a seamless and efficient solution for generating 
+                 QR codes on demand."</p>
+                 <a href="#"><i class='bx bx-link-external' style="color: #3d2513;"></i>'></a>
+        </div>
+        </div>
+
+    </div>
+</section>
+
+<hr>
+<div id="about" class="about">
+    <h1>More About Me</h1>
+</div>
+
+<section class="fourth-section">
+    <div class="fourth-img">
+    <img class="fourth-image" src="./images/photoabot.png">
+    </div>
+    <div class="fourth-text">
+        <h2>My Experience</h2>
+        <p>Currently, Im working at Infosys as Front-end Developer from past 1.5yrs. I'm passionate about 
+            problem-solving and software development.
+        </p>
+        </br>  
+        <br>
+        <h2>About Me</h2>
+        <p>I graduated with a Bachelor's degree in Technology (B.Tech) in 2022 with 8.2cgpa. 
+            I've solved 200+ coding problems on platforms like LeetCode and GFG.Aside of this i 
+            love reading fiction novels.
+        </p>
+        <br>
+        
+        <br>
+        <div class="about-icons">
+            <a href="https://leetcode.com/amishaSahu1/" class="btn-box">LeetCode</a>
+            <a href="https://auth.geeksforgeeks.org/user/amishaamar1999" class="btn-box">GFG</a>
+            <a href="https://github.com/amishaSahu1" class="btn-box">Github</a>
+            <a href="https://www.linkedin.com/in/amisha-sahu-736b021a1/" class="btn-box">LinkedIn</a>
+
+        </div>
+             
+    </div>
+</section>
+
+<hr>
+<div id="contactt" class="contact">
+    <h1>Contact Me</h1>
+</div >
+<div class="contact-email">
+   <p><img class="send-img" src="./images/send-regular-24.png"><span> amisha.amar999@gmail.com</span></p>
+</div>
+
+<section class="fifth-section">
+    <form method="POST">
+        <h3>Get in touch</h3>
+        <input type="text" id="name" placeholder="Your Name" autocomplete="off">
+        <input type="email" id="email" placeholder="Your Email" autocomplete="off">
+        <input type="text" id="subject" placeholder="Enter your Subject" autocomplete="off">
+        <textarea type="text" id="msg" rows="4" placeholder="Enter your message"></textarea>
+        <button type="button" id="btn">Submit</button>
+    </form>
+</section>
+<!-- <div id="copyright">
+    <p>Copyright </p>
+</div> -->
+</main> 
+</div> 
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+      strings: [' a Software Engineer',' a Web Developer', ' a Coder'],
+      typeSpeed: 50,
+      loop:true,
+    });
+  </script>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+   document.addEventListener('DOMContentLoaded', function () {
+   var btn = document.getElementById("btn");
+   btn.addEventListener('click',function(e){
+    e.preventDefault();
+   var name = document.getElementById("name").value;
+   var email = document.getElementById("email").value;
+   var subject = document.getElementById("subject").value;
+   var msg = document.getElementById("msg").value;
+   var body = "Name: " + name 
+    + "<br> Email: " +  email
+    + "<br> Subject: " + subject
+    + "<br> msg: " + msg 
+
+   Email.send({
+    SecureToken : "4b67fbdb-4ad1-4531-b31d-b8eb2adb6bac",
+    To : "amisha.amar1999@gmail.com",
+    From : "amisha.amar999@gmail.com",
+    Subject : "New Contact Form Enquiry",
+    Body : body 
+}).then(
+    function message(){
+   alert("Message send sucessfully")
+    },
+    function (error) {
+          console.error("Error sending message:", error);
+          alert("Error sending message. Please try again later.");
+        } 
+     );
+    });
+   });
+  </script> 
+  <script>
+    var sidemenuu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenuu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenuu.style.right= "-200px";
+    }
+  </script>
+  <!-- <script>
+    function sendEmail(){
+        Email.send({
+    Host : "smtp.email.com",
+    Username : "amisha.amar999@gmail.com",
+    Password : "bla",
+    To : 'amisha.amar999@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: " + document.getElementById("name").value
+    + "<br> Email: " +  document.getElementById("email").value
+    + "<br> Subject: " + document.getElementById("subject").value
+    + "<br> msg: " + document.getElementById("msg").value  
+    }).then(
+     message => alert("Message send sucessfully")
+    );
+    }
+  </script> -->
+</body>
+>>>>>>> 12b3483f969b9ef60d7018dffff844ef59310f52
 </html>
